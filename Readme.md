@@ -26,11 +26,9 @@ You can also build the trees in a way that is similar to regular routes.  e.g.
 
 Behind the scenes we do actually build a tree of TreeRoutes based on the paths provided.
 
-One advantage of building a tree of routes is that for large and deep trees, the performance of route resolution should be significantly better.  Also, future versions will allow attaching message handlers to the tree and routing resolution will generate a custom pipeline of message handlers that are specific to that route.
-
 Currently, RouteConstraints and RouteDefaults are not implemented.
 
-Here is and example from some simple demo APIs I have built,
+Here is an example from some simple demo APIs I have built,
 
             var route = new TreeRoute("");
 
