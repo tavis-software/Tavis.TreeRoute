@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Tavis.TreeRoute</id>
+    <version>0.8.0</version>
+    <title>Alternate HttpRoute for hierarchial routing</title>
+    <authors>Darrel Miller</authors>
+    <owners>Tavis Software Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Alternate HttpRoute for hierarchial routing</description>
+    <releaseNotes>First release independent of ApiRouter</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+
+  </metadata>
+
+  <files>
+  <file src="..\src\TreeRoute\bin\Release\Tavis.TreeRoute.dll" target="lib\net45\" />
+</files>
+</package>
